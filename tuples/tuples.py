@@ -1,0 +1,5 @@
+my_tuple = ("Pravin",92,1,1,3)
+print(my_tuple)
+print(type(my_tuple))
+print(my_tuple.count(1))
+print(my_tuple.index("Pravin"))

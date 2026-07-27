@@ -5,17 +5,17 @@ class Student:
 
     # getter  - new way
     @property
-    def age(self) -> int:
-        return self.__age
+    def age(self1) -> int:
+        return self1.__age
 
-    # setter - Traditional way
+    # setter - new way
     @age.setter
-    def age(self, new_age: int):
+    def age(self1, new_age: int):
         if new_age > 0:
-            self.__age = new_age
+            self1.__age = new_age
 
 
 s1 = Student("Pravin", 23)
-print(s1.age)
+print(s1.age)  # we not supposed to write the braces
 s1.age = 25
 print(s1.age)

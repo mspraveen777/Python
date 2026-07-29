@@ -1,2 +1,3 @@
-f hello(self):
-    #     print("Hello from B")
+
+    # def __len__(self):
+    #     return len(self.songs)

@@ -27,4 +27,4 @@ class D(B, C):
 d = D()
 d.hello()  # It will go on priority
 
-print(D.__mro__)
+print(D.__mro__)  # To check the priority

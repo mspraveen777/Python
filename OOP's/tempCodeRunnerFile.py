@@ -1,1 +1,2 @@
-100
+f hello(self):
+    #     print("Hello from B")

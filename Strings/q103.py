@@ -10,5 +10,5 @@ def username_validation(name):
     if name[0].isdigit():
         return "Invalid"
     return "Valid"
-username = " $Praveen "
+username = " Praveen "
 print(username_validation(username))

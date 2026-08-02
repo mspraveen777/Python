@@ -10,5 +10,5 @@ original = [1,2,3,[23,43,56],34,56]
 
 deep = copy.deepcopy(original)
 deep[3][1] = 99
-print(deep)
+print(deep)       # here in original it will not change 
 print(original)

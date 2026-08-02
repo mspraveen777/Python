@@ -1,4 +1,4 @@
-# Multiple
+#  child class inherit the propety from mutiple parent class
 
 
 class swim:

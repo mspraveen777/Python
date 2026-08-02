@@ -6,11 +6,11 @@ with a vowel.
 """
 
 def count_vowels(sentence):
-    vowels = "aeiouAEIOU"          # or        vowels = "aeiouAEIOU"
+    vowels = "a","e","i","o","u"           # or        vowels = "aeiouAEIOU"
     count = 0
     words = sentence.split()
     for word in words:
-        if word[0] in vowels:             #if word in vowels
+        if word.startswith(vowels):                    #if word[0] in vowels:
             count += 1
     return count
 

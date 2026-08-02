@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 
 
-class Shape(ABC):
+class Shape(ABC):               # inherit is impp
     @abstractmethod
     def area(self):
         pass

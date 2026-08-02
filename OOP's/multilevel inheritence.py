@@ -1,4 +1,7 @@
-# MutliLevel Inhertence
+"""
+MutliLevel Inhertence  here child class inherits from parent class and
+parent class inhertit from grand parent
+"""
 
 
 class Animal:

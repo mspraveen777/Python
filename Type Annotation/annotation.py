@@ -11,3 +11,6 @@ name1 = "Praveen"
 name2 = "Raju"
 ans = get_names(name1,name2)
 print(ans)
+
+def get_info(name:str,age:int,marks:float,adult:bool):
+    pass

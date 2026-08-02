@@ -10,4 +10,4 @@ class Dog:
 
 
 d = Dog()
-d.speak()
+d.speak()  # method speak from overrides the method speak from animal

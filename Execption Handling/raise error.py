@@ -1,6 +1,6 @@
 def check_age(age):
     if age < 0:
-        raise ValueError("Age can't be negative")
+        raise ValueError("Age can't be negative")  # It throws am error
     elif age > 150:
         raise ValueError("Age is not real")
     else:

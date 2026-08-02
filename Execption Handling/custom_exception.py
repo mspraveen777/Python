@@ -1,4 +1,4 @@
-class InsufficientFunds(Exception):
+class InsufficientFunds(Exception):  # To create the custom execption
     pass
 
 

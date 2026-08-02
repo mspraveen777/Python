@@ -1,7 +1,7 @@
 # In case of mutable object
 import copy
 def is_add(x):
-    x = copy.deepcopy(x)
+    x = copy.deepcopy(x)  # To overcome it we can use this
     x.append(100)
     print(f" Inside Function x = {x}")
 

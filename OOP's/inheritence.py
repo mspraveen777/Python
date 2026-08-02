@@ -7,13 +7,13 @@ class Animal:
         self.sound = sound
 
     def eating(self):
-        print(f"{self.name} is eating")
+        print(f"{self.name} is eating..")
 
     def speak(self):
         print(f"{self.name} is {self.sound}..")
 
 
-class Dog(Animal):
+class Dog(Animal):            # Inherting the properties from Animal
     pass
 
 

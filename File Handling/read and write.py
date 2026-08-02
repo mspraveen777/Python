@@ -14,7 +14,5 @@
 
 
 with open("abc.txt", "r") as f:
-    content = f.read(10)
+    content = f.read(30)
     print(content)
-    content1 = f.read(10)
-    print(content1)

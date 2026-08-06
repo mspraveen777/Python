@@ -1,5 +1,5 @@
 try:
-    with open("ne1w.txt", "r") as f:
+    with open("new.txt", "r") as f:
         con = f.read()
         print(con)
 

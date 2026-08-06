@@ -10,8 +10,8 @@
 # readlines()
 
 with open("abc.txt", "r") as f:
-    lines = f.readlines()
-    print(lines)
+    lines = f.readlines()  # if the lines are more list takes more storage it is not
+    print(lines)  # optimized way
 
     for l in lines:
         print(l.strip())
